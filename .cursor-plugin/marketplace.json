@@ -1,0 +1,16 @@
+{
+  "name": "python-agent",
+  "owner": {
+    "name": "pmcr-o"
+  },
+  "metadata": {
+    "description": "Python runtime domain orchestrator for runtime inspection and workspace-confined script execution."
+  },
+  "plugins": [
+    {
+      "name": "python",
+      "source": "./.pmcro/plugins/python",
+      "description": "python capabilities owned by python-agent"
+    }
+  ]
+}

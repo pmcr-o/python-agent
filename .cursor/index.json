@@ -1,0 +1,21 @@
+{
+  "apiVersion": "pmcro.dev/v1",
+  "kind": "agent.index",
+  "agent": "python-agent",
+  "entries": [
+    {
+      "route": "@python-agent /python:run-script",
+      "plugin": "python",
+      "skill": "run-script",
+      "description": "Run a workspace-confined Python script with literal arguments. Dry-run by default; Apply executes the exact script and arguments. Does not install packages.",
+      "path": ".pmcro/plugins/python/skills/run-script"
+    },
+    {
+      "route": "@python-agent /python:runtime-info",
+      "plugin": "python",
+      "skill": "runtime-info",
+      "description": "Inspect the available Python runtime and report version, executable, platform, and pip availability without mutation.",
+      "path": ".pmcro/plugins/python/skills/runtime-info"
+    }
+  ]
+}

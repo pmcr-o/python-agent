@@ -1,0 +1,21 @@
+{
+  "schema": "pmcro.capabilities/v1",
+  "agent": "python-agent",
+  "executionRule": "registered AND runtime-present AND authorized",
+  "manualParity": {
+    "required": true,
+    "rule": "agent and manual terminal use the same scripts with the same arguments, exit codes, and evidence"
+  },
+  "capabilities": [
+    {
+      "plugin": "python",
+      "skill": "run-script",
+      "route": "@python-agent /python:run-script"
+    },
+    {
+      "plugin": "python",
+      "skill": "runtime-info",
+      "route": "@python-agent /python:runtime-info"
+    }
+  ]
+}

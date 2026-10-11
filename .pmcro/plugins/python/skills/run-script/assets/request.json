@@ -1,0 +1,7 @@
+{
+    "registered":  true,
+    "agent":  "python-runner-agent",
+    "plugin":  "python",
+    "description":  "Run a workspace-confined Python script with literal arguments. Dry-run by default; Apply executes the exact script and arguments. Does not install packages.",
+    "skill":  "run-script"
+}

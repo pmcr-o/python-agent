@@ -1,0 +1,18 @@
+{
+  "apiVersion": "pmcro.dev/v1",
+  "kind": "agent.catalog",
+  "id": "python-agent",
+  "authority": "read-only discovery; execution requires route + grant + runtime",
+  "skills": [
+    {
+      "id": "run-script",
+      "plugin": "python",
+      "description": "Run a workspace-confined Python script with literal arguments. Dry-run by default; Apply executes the exact script and arguments. Does not install packages."
+    },
+    {
+      "id": "runtime-info",
+      "plugin": "python",
+      "description": "Inspect the available Python runtime and report version, executable, platform, and pip availability without mutation."
+    }
+  ]
+}

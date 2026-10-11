@@ -1,0 +1,16 @@
+{
+  "schema": "dotagents.manifest/v1",
+  "name": "python-agent",
+  "owner": "pmcr-o",
+  "description": "Python runtime domain orchestrator for runtime inspection and workspace-confined script execution.",
+  "invocationField": "plugin",
+  "plugins": [
+    {
+      "name": "python",
+      "source": "./.pmcro/plugins/python",
+      "description": "python capabilities owned by python-agent"
+    }
+  ],
+  "canonical": ".pmcro",
+  "projection": ".agents"
+}
