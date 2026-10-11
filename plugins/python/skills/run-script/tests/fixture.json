@@ -1,0 +1,9 @@
+{
+  "workspace": ".",
+  "script": "example.py",
+  "arguments": [
+    "one",
+    "two"
+  ],
+  "apply": false
+}

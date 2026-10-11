@@ -1,0 +1,8 @@
+{
+  "name": "python",
+  "version": "0.1.0",
+  "description": "Bounded Python runtime mechanics. Runtime inspection is read-only; script execution is dry-run first and workspace-confined. No package install capability.",
+  "skills": [
+    "./skills/"
+  ]
+}

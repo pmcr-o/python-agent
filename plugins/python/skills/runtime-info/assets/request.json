@@ -1,0 +1,7 @@
+{
+    "registered":  true,
+    "agent":  "python-runtime-agent",
+    "plugin":  "python",
+    "description":  "Inspect the available Python runtime and report version, executable, platform, and pip availability without mutation.",
+    "skill":  "runtime-info"
+}
